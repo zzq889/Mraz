@@ -96,8 +96,8 @@ class qqAPI():
 if __name__ == '__main__':
   test = qqAPI()
   try:
-    test.t_qq_search_by_keyword('sjtu')
-    print "--- t_qq_search_by_keyword test OK ---"
+    #test.t_qq_search_by_keyword('sjtu')
+    #print "--- t_qq_search_by_keyword test OK ---"
     test.t_qq_search_by_user('zzq889')
     print "--- t_qq_search_by_user(name) test OK ---"
     test.t_qq_search_user('zzq889@gmail.com')
